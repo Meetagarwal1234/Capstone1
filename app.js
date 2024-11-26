@@ -6,7 +6,7 @@ const app = express();
 const passport = require('./config/passport');
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/civilloan', {
+mongoose.connect('mongodb+srv://meetagarwal2003:wJHynMfUfdBuo4Ct@cluster0.m9hhq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
